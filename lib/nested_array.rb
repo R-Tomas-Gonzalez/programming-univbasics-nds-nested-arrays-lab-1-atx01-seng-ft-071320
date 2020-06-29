@@ -30,8 +30,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  assembled_matrix
-  assembled_matrix[1][1]
+  assembled_matrix[1][1], sorted_matrix[1][1]
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
 end
