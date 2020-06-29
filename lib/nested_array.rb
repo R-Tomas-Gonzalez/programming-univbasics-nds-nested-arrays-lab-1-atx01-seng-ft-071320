@@ -36,7 +36,7 @@ end
 def matrix_update(matrix, row, column, new_value)
  sorted_matrix[1][1]
  sorted_matrix[1][1] = "new_value"
- sorted_matrix
+ sorted_matrix[1][1]
   # Given any matrix (array of arrays), a row index and a column index,
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
